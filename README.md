@@ -30,7 +30,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 ### Deploying your system
 
 Follow the process described in the course to `eb init` a new application and `eb create` a new environment to deploy your image-filter service! Don't forget you can use `eb deploy` to push changes.
-## Elastic beanstalf Endpoint
+### Elastic beanstalf Endpoint
 http://image-filter-moba-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://wallpapercave.com/dwp1x/wp4023760.jpg
 ## Stand Out (Optional)
 
@@ -47,5 +47,5 @@ Prevent requests without valid authentication headers.
 
 Add your own domain name and have it point to the running services (try adding a subdomain name to point to the processing server)
 > !NOTE: Domain names are not included in AWS’ free tier and will incur a cost.
-## My repository URL
+### My repository URL
 https://github.com/zmobarez/image-filter-moba
